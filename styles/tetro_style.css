@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: monospace;
+}
+
+#canva {
+    position: absolute;
+}
+
+#score {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Offside', cursive;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* center the block */
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#score-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 36px;
+
+}
+
+#gover-score-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 36px;
+
+}
+
+#main-menu {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Offside', cursive;
+    position: absolute;
+    z-index: 2;
+    /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+    /* center the block */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    display: block;
+
+}
+
+#game-menu {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Offside', cursive;
+    position: absolute;
+    z-index: 2;
+    /* display: flex;
+flex-direction: column;
+align-items: center; */
+
+    /* center the block */
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    margin: auto 100px auto auto;
+
+}
+
+#gover-menu {
+    display: none;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Offside', cursive;
+    position: absolute;
+    z-index: 2;
+    /* display: flex;
+flex-direction: column;
+align-items: center; */
+
+    /* center the block */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    background-color: blueviolet;
+
+    /* display: box; */
+
+}
+
+#gover-title-wrap {
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+}
+
+/* #gover-title {} */
