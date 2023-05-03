@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tetro</title>
+    <link href="./styles/tetro_style.css" rel="stylesheet">
+    <link href="./styles/buttons.css" rel="stylesheet">
+
+    <script type="module" src="./scripts/tetro.js">
+    </script>
+</head>
+
+<body>
+    <canvas id="canva"></canvas>
+    <div id="main-menu">
+        MAIN MENU
+        <div class="nav-buttons-wrap main-nav">
+
+            <a class="nav-button-link transparent main-nav-link" id="main-menu-btn" href="#">
+                <p>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">Start</span>
+                </p>
+            </a>
+            <a class="nav-button-link transparent main-nav-link" id="main-menu-demo-btn" href="#">
+                <p>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">Demo</span>
+                </p>
+            </a>
+
+        </div>
+    </div>
+    <div id="gover-menu">
+        <div id="gover-title-wrap">
+            <div id="gover-title">GAME OVER
+            </div>
+        </div>
+
+
+        YOUR SCORE:
+        <div id="gover-score-content">
+            0
+        </div>
+        <div class="nav-buttons-wrap main-nav">
+
+            <a class="nav-button-link transparent main-nav-link" id="gover-menu-btn" href="#">
+                <p>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">Reload</span>
+                </p>
+            </a>
+
+        </div>
+    </div>
+    <div id="game-menu">
+        <!-- Game MENU -->
+        <div class="nav-buttons-wrap main-nav">
+
+            <a class="nav-button-link transparent main-nav-link" id="game-menu-btn" href="#">
+                <p>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">Reload</span>
+                </p>
+            </a>
+
+        </div>
+        <div id="score-title">
+            YOUR SCORE:
+        </div>
+        <div id="score-content">
+            0
+        </div>
+    </div>
+</body>
+
+</html>
