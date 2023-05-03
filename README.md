@@ -1,4 +1,4 @@
-# tetro_3d.github.io
+# Tetris 3D Game
 The [project](https://allohant.github.io/tetro_3d.github.io/#) is a Tetris 3D game writted within Three.js study course.
 
 ### Modes:
